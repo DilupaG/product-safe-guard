@@ -111,6 +111,12 @@ p {
   transition: 0.4s;
 }
 
+.accordion-content > p > a {
+  color: #aca7a7;
+  font-weight: 400;
+  text-decoration: none;
+}
+
 .accordion-content > p {
   color: #aca7a7;
   font-weight: 400;
@@ -119,6 +125,8 @@ p {
 .accordion-content > p > span {
   color: rgb(157, 162, 0);
 }
+
+
 
 /* Home */
 
@@ -182,7 +190,6 @@ p {
 }
 
 .user-photo img {
-  border-radius: 50%;
   width: 150px;
   height: 150px;
   object-fit: cover;
