@@ -1,0 +1,261 @@
+html {
+  scroll-behavior: smooth;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.922);
+}
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 80px;
+}
+
+section > p {
+  text-align: center;
+}
+
+h1 {
+  color: rgb(173, 173, 30);
+  text-align: center;
+  font-size: 42px;
+  font-weight: 800;
+  margin: 0;
+}
+
+h2 {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+h3 {
+  color: #a1a1a1;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 600;
+  color: #777777;
+}
+
+/* Accordion */
+
+.accordion {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    500.79deg,
+    rgba(255, 255, 255, 0.197) 0%,
+    rgba(255, 255, 255, 0.114) 99.45%
+  );
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  transition: 0.4s;
+}
+
+.accordion > h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: rgb(199, 199, 199);
+}
+
+.accordion > h2:after {
+  content: "\25BC";
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.accordion-content {
+  display: none;
+  color: #444;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.accordion-content > p {
+  color: #aca7a7;
+  font-weight: 400;
+}
+
+.accordion-content > p > span {
+  color: rgb(157, 162, 0);
+}
+
+/* Home */
+
+.homeStyles {
+  height: 100vh;
+  background-image: url("./images/home-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  filter: blur(6px);
+  z-index: 1;
+}
+
+.homeTitleStyles {
+  background-color: rgb(67, 63, 63);
+  opacity: 0.9;
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  padding: 20px;
+}
+
+.homeTitleStyles > p {
+  text-align: center;
+  font-weight: 600;
+  color: rgb(183, 183, 37);
+  font-size: 50px;
+}
+
+.homeTitleStyles > h2 {
+  text-align: center;
+  font-weight: 400;
+  color: rgb(180, 180, 170);
+  font-size: 32px;
+}
+
+/* About */
+
+.aboutSectionStyles {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.user-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+}
+
+.user-photo {
+  text-align: center;
+}
+
+.user-photo img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.user-info {
+  padding: 10px;
+}
+
+.user-info h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.user-info p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+/* Domain */
+
+#domain {
+  padding: 20px;
+}
+
+.subtopic {
+  text-align: center;
+  color: rgb(200, 200, 184);
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.subtopic h2 {
+  font-size: 24px;
+}
+
+.subtopic p {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: start;
+  line-height: 1.8;
+}
+
+#technologies {
+  margin-top: 20px;
+}
+
+.technologyContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#technologies > h2 {
+  font-size: 24px;
+  margin-top: 20px;
+  color: rgb(180, 180, 170);
+  text-align: center;
+}
+
+.technology {
+  color: rgb(180, 180, 170);
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.technology img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  object-fit: contain;
+}
+

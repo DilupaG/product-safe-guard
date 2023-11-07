@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Crime and Suicide Project</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="#home">Home</a>
+      <a href="#domain">Domain</a>
+      <a href="#milestones">Milestones</a>
+      <a href="#documents">Documents</a>
+      <a href="#slides">Slides</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact Us</a>
+    </div>
+
+    <section id="home" class="homeStyles"></section>
+    <div class="homeTitleStyles">
+      <p>
+        DEVELOPMENT OF A PREDICTION SYSTEM FOR CRIMINALITY AND SUICIDAL IN SRI
+        LANKA
+      </p>
+      <h2 style="color: gainsboro">GROUP ID – TMP-23-090</h2>
+    </div>
+    <div class="container">
+      <!-- .........................................Domain....................................................... -->
+
+      <section id="domain">
+        <h1>Domain</h1>
+        <p>We investigate the complex domain of crime and suicide.</p>
+
+        <section class="subtopic" id="literature-survey">
+          <h2>Literature Survey</h2>
+          <p>
+            Machine learning plays a crucial role in suicide prediction and
+            crime forecasting to address pressing issues in Sri Lanka.
+            Researchers have evolved from traditional models to cutting-edge
+            techniques like deep learning and network analysis to enhance
+            prediction accuracy, using extensive datasets to identify patterns
+            and high-risk individuals. This technology not only forecasts
+            suicide trends but also helps allocate healthcare resources more
+            effectively, potentially saving lives. In Sri Lanka, with one of the
+            world's highest suicide rates, the lack of systematic procedures
+            necessitates machine learning analysis, especially focusing on
+            education and occupation levels. This research aims to provide
+            targeted interventions to reduce suicide rates.
+          </p>
+          <p>
+            On the other hand, high crime rates in Sri Lanka hinder development,
+            and a machine learning-based crime prediction system is essential to
+            enhance public safety, economy, and overall progress. This system
+            forecasts future crimes and identifies emerging crime hotspots,
+            empowering law enforcement and policymakers to allocate resources
+            strategically and address root causes. While machine learning has
+            made progress in crime prediction, this research aims to refine
+            accuracy and dynamically identify hotspots specific to Sri Lanka,
+            ultimately creating a safer and more prosperous nation.
+          </p>
+        </section>
+
+        <section class="subtopic" id="research-gap">
+          <h2>Research Gap</h2>
+          <p>
+            Suicide is a significant public health concern, requiring precise
+            identification of risk factors and early warning signs across
+            various age groups. Two research gaps need attention: developing
+            advanced predictive models that incorporate a wide range of
+            variables, such as age group, reason for suicide, and method used,
+            and understanding the intricate interplay between age groups,
+            education level, and occupation in influencing suicide risk. Another
+            research gap is understanding the intricate relationship between age
+            groups, education level, and occupation in influencing suicide risk.
+            By addressing these two research gaps, comprehensive models can be
+            developed to enhance the effectiveness of suicide prevention
+            strategies and reduce the incidence of suicide in Sri Lanka among
+            different socio-economic groups. The Weighted Random Forest
+            Regressor is a new approach to regression modeling, enhancing
+            accuracy by assigning varying weights to different features within a
+            dataset. This innovative method optimizes feature selection and
+            weighting, prioritizing features with a strong correlation with the
+            target label.
+          </p>
+          <p>
+            In crime prediction, separate machine learning models for each crime
+            type are proposed to enhance prediction accuracy. An automated
+            method is introduced to determine the best parameters for each ARIMA
+            model, streamlining the parameter selection process and allowing for
+            a deeper understanding of factors influencing different crime types.
+            The research component focuses on advancing accuracy through
+            customization of ARIMA models and dynamic hotspot identification
+            techniques, aiming to significantly improve prediction accuracy. The
+            goal is to equip law enforcement agencies with the necessary tools
+            to proactively combat crime challenges, particularly at the regional
+            level.
+          </p>
+        </section>
+
+        <section class="subtopic" id="research-problem">
+          <h2>Research Problem</h2>
+          <p>
+            The escalating suicide rates in Sri Lanka, primarily due to the
+            COVID-19 pandemic and economic and political instability, are a
+            pressing research issue. The country's suicide classification is
+            limited, focusing on demographic, social, and psychological factors.
+            A research project aims to develop a predictive model for suicide,
+            analyzing historical data and identifying risk factors. This will
+            help healthcare professionals and community organizations identify
+            high-risk individuals and implement targeted interventions. Sri
+            Lanka also faces a growing crime problem, with a lack of proactive
+            crime prevention strategies. The current system is reactive,
+            underutilizing modern technologies and predictive methods. To
+            address this, a comprehensive crime prediction system is proposed,
+            leveraging advanced machine learning techniques. This system aims to
+            enhance prediction accuracy and identify dynamic hotspots, areas
+            with potential future increases in criminal activity.
+          </p>
+          <p>
+            The research focuses on improving prediction accuracy through
+            cutting-edge machine learning technology and identifying dynamic
+            hotspots, contributing to early intervention and long-term community
+            safety. The development of a robust crime prediction system in Sri
+            Lanka, focusing on dynamic hotspot accuracy improvement using custom
+            ARIMA models and hotspot identification, holds great potential for
+            enhancing community safety and security.
+          </p>
+        </section>
+
+        <section class="subtopic" id="methodology">
+          <h2>Methodology</h2>
+          <p>
+            The methodology involves a dual approach first, analyzing
+            historical suicide data from Sri Lanka to create advanced predictive
+            models incorporating various factors like age, reasons, methods,
+            education, and occupation. This comprehensive modeling aims to
+            understand the interplay of these factors in suicide risk. Second,
+            introducing the Weighted Random Forest Regressor for enhanced
+            regression modeling by assigning varying weights to features within
+            datasets, prioritizing those highly correlated with the target
+            label. The combined approach advances suicide prevention and
+            regression modeling, with the goal of reducing suicide rates in Sri
+            Lanka and improving predictive accuracy in diverse domains. The
+            user-friendly system interface includes graphical data
+            representations for healthcare professionals and policymakers.
+          </p>
+          <p>
+            We collected crime-related data from the Sri Lanka Police
+            Department. Our methodology involved implementing separate naive and
+            ARIMA models for each crime type, with the enhancement of the
+            existing ARIMA algorithm using a novel method to determine the best
+            parameters (p, d, q) for each model. We then constructed an ARIMA
+            Ensemble Model to achieve precise crime predictions. Additionally,
+            we implemented Dynamic Hotspot Identification to address evolving
+            crime patterns and devised a data-driven strategy aimed at fostering
+            a safer community. Our approach aimed to bridge the gap between data
+            analysis and effective crime prevention, ensuring a comprehensive
+            and robust methodology.
+          </p>
+        </section>
+
+        <section id="technologies">
+          <h2>Technologies Used</h2>
+          <section class="technologyContainer">
+            <div class="technology">
+              <!-- <h3>Flask</h3> -->
+              <img src="./images/flasklogo.jpg" alt="Technology Logo 2" />
+            </div>
+            <div class="technology">
+              <!-- <h3>Python</h3> -->
+              <img src="./images/Python-Symbol.png" alt="Technology Logo 2" />
+            </div>
+            <div class="technology">
+              <!-- <h3>React JS</h3> -->
+              <img src="./images/React-Symbol.png" alt="Technology Logo 2" />
+            </div>
+            <div class="technology">
+              <!-- <h3>Jupitor notebook</h3> -->
+              <img
+                src="./images/Jupyter_logo.svg.png"
+                alt="Technology Logo 1"
+              />
+            </div>
+          </section>
+        </section>
+      </section>
+
+      <!-- .........................................Milestones....................................................... -->
+      <section id="milestones" class="crime-section">
+        <h1>Milestones</h1>
+        <p>Track our project milestones and progress.</p>
+
+        <!-- Milestones one -->
+        <div class="accordion">
+          <h2>Project Proposal</h2>
+          <div class="accordion-content">
+            <p>
+              <span>Description:</span>Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Molestiae dicta doloribus voluptate assumenda
+              laborum ipsum voluptatem temporibus reiciendis sit. Blanditiis
+              natus placeat architecto beatae, eveniet magni? Quod eum sed
+              illum.
+            </p>
+            <p><span>Date:</span>[Date]</p>
+            <p><span>Marks Allocated:</span>[Marks]</p>
+          </div>
+        </div>
+
+        <!-- progress Presentation 1 -->
+        <div class="accordion">
+          <h2>progress Presentation 1</h2>
+          <div class="accordion-content">
+            <p>
+              <span>Description:</span>Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Molestiae dicta doloribus voluptate assumenda
+              laborum ipsum voluptatem temporibus reiciendis sit. Blanditiis
+              natus placeat architecto beatae, eveniet magni? Quod eum sed
+              illum.
+            </p>
+            <p><span>Date:</span>[Date]</p>
+            <p><span>Marks Allocated:</span>[Marks]</p>
+          </div>
+        </div>
+        <!-- progress Presentation 1 -->
+        <div class="accordion">
+          <h2>progress Presentation 2</h2>
+          <div class="accordion-content">
+            <p>
+              <span>Description:</span>Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Molestiae dicta doloribus voluptate assumenda
+              laborum ipsum voluptatem temporibus reiciendis sit. Blanditiis
+              natus placeat architecto beatae, eveniet magni? Quod eum sed
+              illum.
+            </p>
+            <p><span>Date:</span>[Date]</p>
+            <p><span>Marks Allocated:</span>[Marks]</p>
+          </div>
+        </div>
+        <!-- Final Assesment -->
+        <div class="accordion">
+          <h2>Final Assesment</h2>
+          <div class="accordion-content">
+            <p>
+              <span>Description:</span>Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Molestiae dicta doloribus voluptate assumenda
+              laborum ipsum voluptatem temporibus reiciendis sit. Blanditiis
+              natus placeat architecto beatae, eveniet magni? Quod eum sed
+              illum.
+            </p>
+            <p><span>Date:</span>[Date]</p>
+            <p><span>Marks Allocated:</span>[Marks]</p>
+          </div>
+        </div>
+        <!-- Viva -->
+        <div class="accordion">
+          <h2>Viva</h2>
+          <div class="accordion-content">
+            <p>
+              <span>Description:</span>Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Molestiae dicta doloribus voluptate assumenda
+              laborum ipsum voluptatem temporibus reiciendis sit. Blanditiis
+              natus placeat architecto beatae, eveniet magni? Quod eum sed
+              illum.
+            </p>
+            <p><span>Date:</span>[Date]</p>
+            <p><span>Marks Allocated:</span>[Marks]</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- .........................................Documents....................................................... -->
+      <section id="documents" class="crime-section">
+        <h1>Documents</h1>
+        <p>Access important project documents.</p>
+
+        <!-- Project Charter -->
+        <div class="accordion">
+          <h2>Topic Assesment Form</h2>
+          <div class="accordion-content">
+            <p>
+              <span>Link:</span
+              ><a href="project_charter.pdf"> View Topic Assesment Form</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- Proposal Document -->
+        <div class="accordion">
+          <h2>Proposal Document</h2>
+          <div class="accordion-content">
+            <p>
+              <span>Link:</span
+              ><a href="project_charter.pdf"> View Proposal Document</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- Status Document -->
+        <div class="accordion">
+          <h2>Status Document</h2>
+          <div class="accordion-content">
+            <p>
+              <span>Link:</span
+              ><a href="project_charter.pdf"> View Status Document</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- Final Document -->
+        <div class="accordion">
+          <h2>Final Document</h2>
+          <div class="accordion-content">
+            <p>
+              <span>Link:</span
+              ><a href="project_charter.pdf"> View Final Document</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- .........................................Presenation Slides....................................................... -->
+      <section id="slides" class="suicide-section">
+        <h1>Presenation Slides</h1>
+        <p>View presentation slides related to our research.</p>
+
+        <!-- Proposal Presentation Slides -->
+        <div class="accordion">
+          <h2>Proposal Presentation Slides</h2>
+          <div class="accordion-content">
+            <p>
+              <span>Link:</span
+              ><a href="project_charter.pdf"
+                >View Proposal Presentation Slides</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <!-- Progress Presentation 1 Slides -->
+        <div class="accordion">
+          <h2>Progress Presentation 1 Slides</h2>
+          <div class="accordion-content">
+            <p>
+              <span>Link:</span
+              ><a href="project_charter.pdf"
+                >View Progress Presentation 1 Slides</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <!-- Progress Presentation 2 Slides -->
+        <div class="accordion">
+          <h2>Progress Presentation 2 Slides</h2>
+          <div class="accordion-content">
+            <p>
+              <span>Link:</span
+              ><a href="project_charter.pdf"
+                >View Progress Presentation 2 Slides</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <!-- Final Presentation Slides -->
+        <div class="accordion">
+          <h2>Final Presentation Slides</h2>
+          <div class="accordion-content">
+            <p>
+              <span>Link:</span
+              ><a href="project_charter.pdf"> Final Presentation Slides</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- .........................................About....................................................... -->
+      <section id="about">
+        <h1>About Us</h1>
+        <p>Learn more about our research team and organization.</p>
+        <div class="aboutSectionStyles">
+          <div class="user-card">
+            <div class="user-photo">
+              <img src="./images/dilupa.jpg" alt="User Photo" width="100%" />
+            </div>
+            <div class="user-info">
+              <h3>Name: D.G Girambe</h3>
+              <p>Email: it20235574@my.sliit.lk</p>
+              <p>Phone: 0767008955</p>
+              <p>Specialization: Software Engineering</p>
+              <p>IT Number: IT20235574</p>
+            </div>
+          </div>
+
+          <div class="user-card">
+            <div class="user-photo">
+              <img src="./images/Thameera.png" alt="User Photo" />
+            </div>
+            <div class="user-info">
+              <h3>Name: Jane Smith</h3>
+              <p>Email: jane.smith@example.com</p>
+              <p>Phone: (987) 654-3210</p>
+              <p>Specialization: Graphic Designer</p>
+              <p>ID Number: 67890</p>
+            </div>
+          </div>
+
+          <div class="user-card">
+            <div class="user-photo">
+              <img src="./images/Poorna.png" alt="User Photo" />
+            </div>
+            <div class="user-info">
+              <h3>Name: Jane Smith</h3>
+              <p>Email: jane.smith@example.com</p>
+              <p>Phone: (987) 654-3210</p>
+              <p>Specialization: Graphic Designer</p>
+              <p>ID Number: 67890</p>
+            </div>
+          </div>
+
+          <div class="user-card">
+            <div class="user-photo">
+              <img src="./images/Hasini.png" alt="User Photo" />
+            </div>
+            <div class="user-info">
+              <h3>Name: Jane Smith</h3>
+              <p>Email: jane.smith@example.com</p>
+              <p>Phone: (987) 654-3210</p>
+              <p>Specialization: Graphic Designer</p>
+              <p>ID Number: 67890</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- .........................................Contact....................................................... -->
+      <section id="contact">
+        <h1>Contact Us</h1>
+        <p>Contact our team lead for inquiries, feedback, or collaboration.</p>
+
+        <div class="aboutSectionStyles">
+          <div class="user-card">
+            <div class="user-photo">
+              <img src="./images/user2.jpg" alt="User Photo" />
+            </div>
+            <div class="user-info">
+              <h3>Name: Thameera Fernando</h3>
+              <p>Email: jane.smith@example.com</p>
+              <p>Phone: (987) 654-3210</p>
+              <p>Specialization: Graphic Designer</p>
+              <p>ID Number: 67890</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
